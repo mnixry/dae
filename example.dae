@@ -93,6 +93,9 @@ global {
     # The Client Hello ID for uTLS to imitate. This takes effect only if tls_implementation is utls.
     # See more: https://github.com/daeuniverse/dae/blob/331fa23c16/component/outbound/transport/tls/utls.go#L17
     utls_imitate: chrome_auto
+
+    # Set non-zero value to enable pprof.
+    pprof_port: 6060
 }
 
 # Subscriptions defined here will be resolved as nodes and merged as a part of the global node pool.
